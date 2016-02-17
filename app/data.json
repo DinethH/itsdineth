@@ -1,0 +1,20 @@
+[
+  {"id": "1", "type": "Web", "years": "2016", "name": "LaSalle Publishing", "img": "Screenshot 2016-02-17 at 1.07.25 PM.png", "url": "https://lasalle-publishing.firebaseapp.com/"},
+  {"id": "1", "type": "Web", "years": "2016", "name": "Multi-level Networking - Landing Pages [10]", "img": "Screenshot 2016-02-17 at 10.50.48 AM.png", "url": "http://atimetravelers.com/projects/mlm/"},
+  {"id": "2", "type": "Web", "years": "2014-2015", "name": "Volunteer Tracking System: Demo", "img": "Screenshot 2016-02-17 at 10.51.25 AM.png", "url": "https://www.youtube.com/watch?v=J4h7KxoPUFw"},
+  {"id": "12", "type": "Prototype", "years": "2014-2015", "name": "Volunteer Tracking System: Prototype", "img": "Screenshot 2016-02-17 at 12.53.36 PM.png", "url": "https://www.youtube.com/watch?v=SbhKes0XriQ"},
+  {"id": "13", "type": "Wireframes", "years": "2014-2015", "name": "Volunteer Tracking System: Wireframes", "img": "Screenshot 2016-02-17 at 1.00.19 PM.png", "url": "https://goo.gl/photos/rwQY3PBG9S2Gom1q8"},
+  {"id": "13", "type": "SRS", "years": "2014-2015", "name": "Volunteer Tracking System: System Requirements Specificiation", "img": "Screenshot 2016-02-17 at 1.05.10 PM.png", "url": "http://ranger.uta.edu/~odell/Senior_Design_Document_Library/Fall2014/SRS_Time_Keepers_2.0.pdf"},
+  {"id": "13", "type": "Arduino/Electronics", "years": "2014", "name": "Smart Lamp", "img": "Screenshot 2016-02-17 at 12.56.13 PM.png", "url": "https://www.youtube.com/watch?v=bcLRLUIvyWE"},
+  {"id": "3", "type": "Web", "years": "2014-2015", "name": "PWDGroups, Inc.", "img": "Screenshot 2016-02-17 at 10.51.44 AM.png", "url": "http://pwdgroups.com/"},
+  {"id": "4", "type": "Web", "years": "2014-2015", "name": "PWDGroups, Inc. | RFID Conference", "img": "Screenshot 2016-02-17 at 10.52.01 AM.png", "url": "http://pwdgroups.com/rfid/"},
+  {"id": "9", "type": "Android/iOS", "years": "2014-2015", "name": "Six Sigma Quiz App", "img": "Screenshot 2016-02-17 at 10.54.33 AM.png", "url": "https://play.google.com/store/search?q=pwdgroup"},
+  {"id": "11", "type": "Web", "years": "2014-2015", "name": "PWDGroups, Inc. | Six Sigma Conference", "img": "Screenshot 2016-02-17 at 10.54.56 AM.png", "url": "http://pwdgroups.com/risesixsigma"},
+  {"id": "7", "type": "Web", "years": "2014-2015", "name": "El-Garaje", "img": "Screenshot 2016-02-17 at 10.54.05 AM.png", "url": "http://atimetravelers.com/projects/El-Garaje/buy/"},
+  {"id": "5", "type": "Web", "years": "2012-2014", "name": "EES Department, UTA", "img": "Screenshot 2016-02-17 at 10.52.20 AM.png", "url": "http://www.uta.edu/ees/"},
+  {"id": "6", "type": "Web", "years": "2012-2014", "name": "SLSA, UTA", "img": "Screenshot 2016-02-17 at 10.52.38 AM.png", "url": "http://www.uta.edu/studentorgs/srilanka/"},
+  {"id": "6", "type": "Video", "years": "2012-2014", "name": "SLSA Fashion Show", "img": "Screenshot 2016-02-17 at 10.53.04 AM.png", "url": "https://www.youtube.com/watch?time_continue=4&v=NlG7zJ7l-iQ"},
+  {"id": "8", "type": "Web", "years": "2013", "name": "Tutor Finding System", "img": "Screenshot 2016-02-17 at 10.54.19 AM.png", "url": "http://atimetravelers.com/projects/PTS/home/"}
+]
+
+

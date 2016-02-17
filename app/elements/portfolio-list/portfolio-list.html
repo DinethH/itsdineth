@@ -1,0 +1,130 @@
+<!--
+@license
+Copyright (c) 2015 The Polymer Project Authors. All rights reserved.
+This code may only be used under the BSD style license found at http://polymer.github.io/LICENSE.txt
+The complete set of authors may be found at http://polymer.github.io/AUTHORS.txt
+The complete set of contributors may be found at http://polymer.github.io/CONTRIBUTORS.txt
+Code distributed by Google as part of the polymer project is also
+subject to an additional IP rights grant found at http://polymer.github.io/PATENTS.txt
+-->
+
+<link rel="import" href="../../bower_components/polymer/polymer.html">
+<link rel="import" href="../../bower_components/paper-styles/typography.html">
+<link rel="import" href="../../bower_components/iron-ajax/iron-ajax.html">
+<link rel="import" href="../../bower_components/iron-list/iron-list.html">
+<link rel="import" href="../../bower_components/iron-flex-layout/classes/iron-flex-layout.html">
+
+
+
+<dom-module id="portfolio-list">
+  <template>
+    <style>
+      :host {
+        display: block;
+      }
+
+      span {
+        @apply(--paper-font-body1);
+      }
+    .container-desktop {
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+    
+    paper-material {
+      width: 300px;
+
+      margin: 15px;
+    }
+    
+    .product-image {
+      width: 100%;
+    }
+    .list-item {
+      margin: 10px;
+    }
+ 
+   .products-wrapper {
+             display: -webkit-flex; /* Safari */
+        -webkit-flex-wrap: wrap; /* Safari 6.1+ */
+        display: flex;   
+        flex-wrap: wrap;
+        -webkit-align-items: center;
+        align-items: center;
+        -webkit-justify-content: center;
+        justify-content: center;
+   }
+   a.product-link {
+     text-decoration: none;
+     color: var(--primary-text-color);
+   }
+   .product-title {
+     font-size: 20px;
+     padding: 8px;
+   }
+   .product-type, .product-years {
+     padding: 8px;
+   }
+   .product-type {
+     color: #D87C2B;
+   }
+   .product-years {
+     color: #3CA320;
+   }
+    
+    </style>
+    
+
+  
+  <div class="container-desktop">
+      <iron-ajax url="../../data.json" last-response="{{data}}" auto></iron-ajax>
+   
+   <div class="products-wrapper">
+      {{productID}}
+      <template is="dom-repeat" items="{{data}}">
+        <div class="list-item">
+            <a class="product-link" href="{{item.url}}" target="_blank">
+            <paper-material>
+              <img class="product-image" src="images/products/{{item.img}}">
+               <div class="product-title">{{item.name}}</div>
+               <div class="layout horizontal">
+                 <div class="product-type">{{item.type}}</div>
+                 <div class="flex"></div>
+                 <div class="product-years">{{item.years}}</div>
+               </div>
+             
+            </paper-material>
+          </a>
+          </div>
+    </template>
+   </div>
+
+
+  </div>
+
+   
+  </template>
+
+  <script>
+    (function() {
+      'use strict';
+
+      Polymer({
+        is: 'portfolio-list',
+
+        properties: {
+          items: {
+            type: Array,
+            notify: true,
+          },
+          baseUrl: String,
+          productID: String
+        },
+
+        ready: function() {
+         
+        }
+      });
+    })();
+  </script>
+</dom-module>
