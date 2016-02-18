@@ -71,12 +71,46 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
    .product-years {
      color: #3CA320;
    }
+       .wrapper-social {
+      display: -webkit-flex; /* Safari */
+      -webkit-flex-wrap: wrap; /* Safari 6.1+ */
+      display: flex;   
+      flex-wrap: wrap;
+      -webkit-align-items: center;
+      align-items: center;
+      -webkit-justify-content: center;
+      justify-content: center;
+    }
+    .social {
+      width: 64px;
+      margin: 20px;
+    }
+    
+    h1 {
+      font-size: 48px;
+    }
+    h2 {
+      color: #666;
+    }
+        .wrapper {
+     text-align: center;
+
+    }
     
     </style>
     
 
+
   
   <div class="container-desktop">
+    
+    <div class="wrapper">
+      <h1>It's Dineth</h1>
+  </div>
+  
+  <div class="wrapper">
+    <h2>Projects</h2>
+  </div>
       <iron-ajax url="../../data.json" last-response="{{data}}" auto></iron-ajax>
    
    <div class="products-wrapper">
@@ -99,6 +133,42 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
     </template>
    </div>
 
+ <div class="wrapper">
+    <h2>Social Media</h2>
+  </div>
+  
+    <div class="wrapper wrapper-social layout horizontal">
+    <div>
+      <a target="_blank" href="https://github.com/DinethH">
+        <img class="social" src="../../images/icons/icons/github.svg">
+      </a>
+    </div>
+    <div>
+      <a target="_blank" href="https://www.linkedin.com/in/dinethh">
+        <img class="social" src="../../images/icons/icons/linkedin.svg">
+      </a>
+    </div>
+    <div>
+      <a target="_blank" href="https://twitter.com/ItsDineth">
+        <img class="social" src="../../images/icons/icons/twitter.svg">
+      </a>
+    </div>
+    <div>
+      <a target="_blank" href="https://www.instagram.com/itsdineth/">
+        <img class="social" src="../../images/icons/icons/instagram.svg">
+      </a>
+    </div>
+    <div>
+      <a target="_blank" href="https://www.facebook.com/idineth">
+        <img class="social" src="../../images/icons/icons/facebook.svg">
+      </a>
+    </div>
+    <div>
+      <a target="_blank" href="https://plus.google.com/+DinethHettiarachchi">
+        <img class="social" src="../../images/icons/icons/googleplus.svg">
+      </a>
+    </div>
+  </div>
 
   </div>
 
